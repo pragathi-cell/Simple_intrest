@@ -3,7 +3,7 @@ import sys
 def simple_intrest(principal,intrest,time):
     return (principal*intrest*time)/100
 
-if__name__=="__main__":
+if __name__=="__main__":
     p = int(sys.argv[1])
     i = float(sys.argv[2])
     t = int(sys.argv[3])
